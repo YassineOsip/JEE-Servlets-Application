@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Add Persons</title>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
+
+</head>
+<body>
+	<section class="hero is-danger">
+	
+	<div class="hero-head">
+	<div class="container">
+    	<h1 class="title is-family-code is-capitalized has-text-dark" style="margin-top:20px;">PERSONS CRUD APPLICATION IN JEE SERVLETS <i class="fa fa-coffee" aria-hidden="true"></i> </h1>
+		<h3 class="subtitle has-text-dark is-italic is-family-code">Delete Person</h3>
+		<a class="button is-dark is-small is-outlined is-pulled-right is-family-code" href="http://localhost:8080/webo/index.html">Back To The Main Menu<i style="margin-left:5px;" class="fas fa-bars fa-spin "></i></a>
+		<br><br>
+	</div>
+	</div>
+	</section>
+	<br>
+	<div class="hero-body"> 
+	<div class="columns is-centered">
+	<div class="column is-5-tablet is-4-desktop is-3-widescreen">
+	<form action="DeletePerson" method="post">
+		<h1 class="title has-text-dark is-family-code" style="text-align:center">Delete Person By CIN</h1>
+		<br>		
+		<div class="field">
+  			<div class="control">
+    			<input class="input is-danger is-family-code" type="text" placeholder="Delete By Cin" name="cin">
+  			</div>
+		</div>
+		
+		<div class="field">
+  			<div class="control">
+    			<button class="button is-danger is-family-code">Delete Person</button>
+    			<button class="button is-dark is-family-code" type="reset">Reset Field</button>
+  			</div>
+		</div>
+		
+	</form>
+	</div>
+	</div>
+	</div>
+</body>
+</html>

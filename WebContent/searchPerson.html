@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Show Persons</title>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
+
+</head>
+<body>
+	<section class="hero is-link">
+	
+	<div class="hero-head">
+	<div class="container">
+    	<h1 class="title is-family-code is-capitalized has-text-dark" style="margin-top:20px;">PERSONS CRUD APPLICATION IN JEE SERVLETS <i class="fa fa-coffee" aria-hidden="true"></i> </h1>
+		<h3 class="subtitle has-text-dark is-italic is-family-code">Search For a Person</h3>
+		<a class="button is-dark is-small is-outlined is-pulled-right is-family-code" href="http://localhost:8080/webo/index.html">Back To The Main Menu<i style="margin-left:5px;" class="fas fa-bars fa-spin "></i></a>
+		<br><br>
+	</div>
+	</div>
+	</section>
+	<br>
+	<div class="hero-body"> 
+	<div class="columns is-centered">
+	<div class="column is-5-tablet is-4-desktop is-3-widescreen">
+        <h1 class="title is-family-code is-capitalized has-text-dark" style="margin-top:20px;text-align: center;">Search For Person</h1>
+		<form action="SearchPerson" method="get" >
+		<div class="field has-addons" style="margin-bottom:10px;">
+			<div class="control">
+			<input class="input is-link" type="text" placeholder="Find a person" name="search">
+		</div>
+		<div class="control">
+		<button class="button is-link" type="submit">
+			Search
+		</button>
+		</div>
+		</div>
+		</form>
+	</div>
+	</div>
+	</div>
+</body>
+</html>

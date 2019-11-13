@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<div class="header">
+		<h1 style="background-color:blue;text-align:center">First JAVA Form</h1>
+	</div>
+	<form action="show" method="post">
+		<h4>Infos</h4>
+		<label for="nom">Nom</label>
+		<input id="nom" type="text" name="nom">
+		<label for="prenom">Prenom</label>
+		<input id="prenom" type="text" name="prenom">
+		<hr>
+		<label for="h">Homme</label>
+		<input id="h" type="radio" name="gend" value="homme">
+		<label for="f">Femme</label>
+		<input id="f" type="radio" name="gend" value="femme">
+		<hr>
+		<h4>Fonction</h4>
+		<select name="fonction" id="fonction-select">
+    	<option value="none">--choisir une fonction--</option>
+    	<option value="Doctrant">Doctrant</option>
+    	<option value="ingenieur">ingenieur</option>
+    	<option value="bachelier">bachelier</option>
+    	<option value="bac + 3">bac + 3</option>
+    	<option value="bac + 5">bac + 5</option>
+		</select>
+		<hr>
+		<h4>Loisir</h4>
+		<label for="s">Sport</label>
+		<input id="s" type="checkbox" name="loisir" value="sport">
+		<label for="v">Voyage</label>
+		<input id="v" type="checkbox" name="loisir" value="voyage">
+		<label for="l">Lecture</label>
+		<input id="l" type="checkbox" name="loisir" value="lecture">
+		<label for="c">Chess</label>
+		<input id="c" type="checkbox" name="loisir" value="chess">
+		<hr>
+		<h4>Commentaire</h4>
+		<textarea rows="" cols="" name="comment"></textarea>
+		<input type="submit">
+		
+	</form>
+		<h1 style="background-color:blue;text-align:center)">End</h1>
+</body>
+</html>
